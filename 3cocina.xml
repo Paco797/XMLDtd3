@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE cocinaFACIL [
+<!ELEMENT cocinaFACIL (receta)>
+<!ATTLIST cocinaFACIL web CDATA #REQUIRED>
+<!ELEMENT receta (presentacion , cocineros , ingredientes , preparacion)>
+<!ATTLIST receta nivel CDATA #REQUIRED>
+<!ELEMENT presentacion (titulo , foto , comensales , tiempo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT comensales (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT cocineros (cocinero)>
+<!ELEMENT cocinero (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT preparacion (#PCDATA)>
+]>
+<cocinaFACIL web="http://www.cocinasencilla.com">
+      <receta nivel="principiante">
+          <presentacion>
+              <titulo>Huevos rellenos con Jamón y gambas</titulo>
+              <foto>huevosJamon.jpg</foto>
+              <comensales> 4 comensales</comensales>
+              <tiempo> 20 minutos</tiempo>
+         </presentacion>
+         <cocineros>
+            <cocinero>Ana Fernandez Romero</cocinero>
+         </cocineros>
+         <ingredientes>
+             <ingrediente> 8 huevos</ingrediente>
+             <ingrediente>  100 g de gambas peladas</ingrediente>
+             <ingrediente>100 g de jamon serrano </ingrediente>
+             <ingrediente> 50 g de aceitunas deshuesadas</ingrediente>
+             <ingrediente> 1 pimiento morr&#65533;n</ingrediente>
+             <ingrediente>sal</ingrediente>
+              <ingrediente>pinienta</ingrediente>
+               <ingrediente>sal</ingrediente>
+         </ingredientes>
+        <preparacion>
+        Cocer los huevos y dejar enfriar, mezclar las yemas con las gambas hervidas, las aceitunas y el jam&#65533;n picado, 
+        se sazona con sal y pimienta, se cubren con la mayonesa y se adornan con tiras de pimiento y aceitunas 
+        </preparacion>
+       </receta>
+       
+        <receta nivel="principiante">
+          <presentacion>
+              <titulo>Pollo al limón en la olla rápida</titulo>
+              <foto>polloLimon.jpg</foto>
+              <comensales> 4 comensales</comensales>
+              <tiempo> 20 minutos</tiempo>
+         </presentacion>
+         <cocineros>
+            <cocinero>gabe</cocinero>
+         </cocineros>
+         <ingredientes>
+             <ingrediente> 4 cuartos de pollo</ingrediente>
+             <ingrediente>  1 hoja de laurel</ingrediente>
+             <ingrediente>1 cebolla </ingrediente>
+             <ingrediente> zumo de 1/2 limón</ingrediente>
+             <ingrediente> 1/2 vaso de vino blanco </ingrediente>
+            <ingrediente>tomillo</ingrediente>
+             <ingrediente>aceite</ingrediente>
+            <ingrediente>pinienta</ingrediente>
+            <ingrediente>sal</ingrediente>
+          </ingredientes>
+        <preparacion>
+        Poner aceite y laurel, dorar un poco el pollo. Reservar y en el mismo aceite pochar la cebolla grande. 
+        Incorporar de nuevo el pollo y poner el zumo de medio limón, y dejar el limón ya exprimido dentro de la olla (para que suelte más jugo),
+        poner medio vaso de vino y echar tomillo y un poco de sal. Tapar la olla y dejarlo unos 15 minutos 
+        </preparacion>
+       </receta>
+       <receta nivel="principiante">
+          <presentacion>
+              <titulo>Flan de Almendras en el Microondas</titulo>
+              <foto>flanAlmendras.jpg</foto>
+              <comensales> 4 comensales</comensales>
+              <tiempo> 15 minutos</tiempo>
+         </presentacion>
+         <cocineros>
+            <cocinero>Veronica</cocinero>
+         </cocineros>
+
+         <ingredientes>
+             <ingrediente> 100 g de almendras crudas</ingrediente>
+             <ingrediente>  4 huevos</ingrediente>
+             <ingrediente>1 bote pequeño de leche condensada </ingrediente>
+             <ingrediente> vainilla</ingrediente>
+             <ingrediente> 1/2 vaso de vino blanco </ingrediente>
+            <ingrediente>100 g de azucar</ingrediente>             
+            <ingrediente>1 vaso de agua y 1/2 litro de leche entera</ingrediente>
+           
+          </ingredientes>
+        <preparacion>
+        Mezclaremos las yemas de huevo con la leche condensada, añadiremos las almendras y el vaso de agua o la leche entera, batiremos muy bien, recomiendo en batidora.
+        Después de bien batido adicionaremos las claras de los huevos batidas a punto de nieve, mezclando a mano.
+        Tendremos el molde para flan caramelizado, verteremos la crema de almendras y coceremos sin tapar en el horno microondas a máxima potencia. Decorar con almendras peladas, guindas y nata montada. 
+        Según la densidad de las almendras quizá a los 10 minutos no este cuajado del todo, deberán darse en tal caso 4 o 5 minutos más de coccion.
+        </preparacion>
+    </receta>
+    <receta nivel="principiante">
+          <presentacion>
+              <titulo>Sardinas al horno</titulo>
+              <foto>sardinas.jpg</foto>
+              <comensales> 4 comensales</comensales>
+              <tiempo> 20 minutos</tiempo>
+         </presentacion>
+         <cocineros>
+            <cocinero>Ana Fernandez Romero</cocinero>
+         </cocineros>
+
+         <ingredientes>
+             <ingrediente> Sardinas grandes</ingrediente>
+             <ingrediente> 2 tomates maduros</ingrediente>
+             <ingrediente>1 cebolla </ingrediente>
+             <ingrediente> 5 dientes de ajo</ingrediente>
+             <ingrediente> vino blanco</ingrediente>
+             <ingrediente>aceite</ingrediente>
+              <ingrediente>pinienta</ingrediente>
+               <ingrediente>sal</ingrediente>
+               <ingrediente>perejil</ingrediente>
+         </ingredientes>
+        <preparacion>
+        Limpiar las sardinas y colocarlas en una bandeja para horno con los tomates partidos en trozos y la cebolla en rodajas finas, picar los ajos y el perejil y echarlo por encima 
+        asar como un chorrito de aceite y otro de vino, salpimentar y poner en el horno unos 20 minutos a 180. 
+        </preparacion>
+       </receta>
+       <receta nivel="principiante">
+<presentacion>
+              <titulo>Arroz con leche</titulo>
+              <foto>arroz.jpg</foto>
+              <comensales> 4 comensales</comensales>
+              <tiempo> 45 minutos</tiempo>
+         </presentacion>
+         <cocineros>
+            <cocinero>Maria Romero</cocinero>
+         </cocineros>
+
+         <ingredientes>
+             <ingrediente> 1/2 vaso de arroz</ingrediente>
+             <ingrediente>1 litro y 1/4 de leche entera </ingrediente>
+             <ingrediente> 172 oalito de canela en rama</ingrediente>
+             <ingrediente> corteza de limón en cuatro trozos</ingrediente>
+            <ingrediente>6 cucharadas de azucar</ingrediente>
+            <ingrediente>canela en polvo</ingrediente>
+           </ingredientes>
+        <preparacion>
+        Se pone a cocer la leche con los trocitos de corteza y la canela en rama, en otro cacharro se pone a hervir el arroz con agua unos 5 minutos,
+         se saca del agua y se vuelca en la leche cuando está cociendo, se le da vueltas de vez en cuando durante una 1/2 hora, 
+         cuando está cocido ponerle 6 cucharadas soperas de azucar y que cueza un poco más. 
+        Se vuelca en una fuente poco profunda y se le aforrna con la canela en polvo, se puede tomar tibio o dejarlo en la nevera unas horas...
+        </preparacion> 
+       </receta>  
+    </cocinaFACIL>
